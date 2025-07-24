@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering_Domain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- PAGE CONTAINER -->
+    <div class="container">
+        <!-- PAGE HEADER -->
+        <header>
+            <!-- NAV BAR -->
+            <nav id="nav">
+                <img src="assets/logo/logo.svg" alt="logo">
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <button class="menu-btn">&#9776;</button>
+                <button class="login-btn">LOG IN</button>
+            </nav>
+        </header>
+        
+        <!-- LOGIN DETAILS--FORM CONTAINER -->
+        <div class="form-container">
+            <!-- FORM IMAGE -->
+            <div class="img-container">
+                <img src="assets/img/cv.webp" alt="login-image">
+                <div class="img-text">
+                    <h3><span>Welcome</span> Back</h3>
+                    <p>please log in using your personal information to stay connected with us.</p>
+                </div>
+            </div>
+
+            <!-- FORM -->
+             <form action="#">
+                <div class="login-container">
+                    <!-- form header -->
+                <h2 class="forn-header">LOG<span>IN</span></h2>
+                
+                <!-- form inputs -->
+                <div class="form-inputs">
+                    <div class="field">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="field field-password">
+                        <input type="password" placeholder="Password">
+                        <p>&#x1F441;</p>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#" id="forgot_password">Forgot password?</a>
+                    </div>
+                    <!-- form login button -->
+                    <div class="field">
+                        <button class="btn-login">Log In</button>
+                    </div>
+                    
+                    <!-- form footer -->
+                    <div class="form-footer">
+                        <p>Don't have an account?</p>
+                        <a href="#">Signup</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- BACKGROUND OVERLAY -->
+    <div class="overlay"></div>
+    <div class="bottom-overlay"></div>
+    <div class="mobile-overlay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
